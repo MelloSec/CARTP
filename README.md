@@ -14,6 +14,12 @@
 #### General and Comprehensive Cheatsheet
 - ***https://github.com/0xJs/CARTP-cheatsheet?tab=readme-ov-file***
 
+#### HackTricks Cloud - I stole so much from them, should give back
+- ***https://cloud.hacktricks.xyz/pentesting-cloud/azure-security***
+
+#### Repo Cheatsheets and Notes
+Our class notes, as well as collected azure pentesting resources from around the web.
+
 ### Install Tools
 ```powershell
 # Install Choco
