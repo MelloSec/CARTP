@@ -1,11 +1,10 @@
 ## CARTP Resources
-Made some adjustments to PowerZure and Microburst, collected some scripts and tools in one spot to make setup easier for the exam. 
 
 <p align="center">
     <img src="https://sec.straylightsecurity.com/images/azuresentinel.webp" alt="cartp" height="300"/>
 </p>
 
-
+#### Made some adjustments to PowerZure and Microburst, collected some scripts and tools in one spot to make setup easier for the exam. 
 
 ### Cheatsheets and Notes
 
