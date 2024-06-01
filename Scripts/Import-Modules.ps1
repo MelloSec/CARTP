@@ -18,7 +18,8 @@ $modulesToCheck = @{
     "TokenTactics" = "C:\Git\TokenTactics\TokenTactics.psm1"
     "GraphRunner" = "C:\Git\GraphRunner\GraphRunner.ps1"
     "PowerZure" = "C:\Git\CARTP\Tools\PowerZure\PowerZure.psm1"
-    "MicroBurst" = "C:\Git\CARTP\Tools\MicroBurst\MicroBurst.psm1"
+    "MicroBurst-Misc" = "C:\Git\CARTP\Tools\MicroBurst\Misc\MicroBurst-Misc.psm1"
+   # "MicroBurst" = "C:\Git\CARTP\Tools\MicroBurst\MicroBurst.psm1"
 }
 
 # Check and import the modules
