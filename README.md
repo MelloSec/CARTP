@@ -14,9 +14,20 @@ Made some adjustments to PowerZure and Microburst, collected some scripts and to
 # Install Choco
 iex (iwr https://raw.githubusercontent.com/MelloSec/RepeatOffender/main/Choco.ps1 -UseBasicParsing)
 
-# Install Azure Tools
+# Clone repos and Install Azure Tools (cli, storage explorer included)
 iex (iwr https://raw.githubusercontent.com/MelloSec/RepeatOffender/main/Azure.ps1 -UseBasicParsing)
 
 # Import Modules
 iex (iwr https://raw.githubusercontent.com/MelloSec/CARTP/main/Scripts/Import-Modules.ps1 -UseBasicParsing)
+
+# # Install Azure Storage Explorer
+# iwr https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.34.0/StorageExplorer-windows-arm64.exe -Outfile storageexplorer.exe
+# .\storageexplorer.exe
+
+# az cli one-liners for Windows
+# winget install -e --id Microsoft.AzureCLI
+# $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; Remove-Item .\AzureCLI.msi
+
+# for Linux
+# curl -L https://aka.ms/InstallAzureCli | bash
 ```
