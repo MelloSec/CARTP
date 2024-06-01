@@ -1,4 +1,4 @@
-## CARTP Resources
+## CARTP - Azure Red Team Resources
 
 <p align="center">
     <img src="https://sec.straylightsecurity.com/images/vault.webp" alt="cartp" height="300"/>
