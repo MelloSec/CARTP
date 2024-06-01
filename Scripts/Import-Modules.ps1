@@ -28,7 +28,7 @@ foreach ($module in $modulesToCheck.GetEnumerator()) {
 }
 
 # Import other required modules
-$requiredModules = @("AADInternals", "Az", "AzureADPreview", "MSOnline", "Microsoft.Graph", "ExchangeOnlineManagement")
+$requiredModules = @("AADInternals", "Az", "AzureADPreview", "MSOnline", "ExchangeOnlineManagement" # "Microsoft.Graph")
 
 foreach ($module in $requiredModules) {
     Write-Output "Importing module: $module"
